@@ -1,6 +1,6 @@
 /**
- * Changes the quantity of unique grocery items to 100.
- * @param {Map<String, number>} map - A map of the name of a
+ * Changes the quantity of grocery items 1 to 100.
+ * @param {Map<String, number>} map - A map of the name of
  * grocery and its quantity.
  * @author Aly Mtsumi <https://github.com/Mtsumi>
  */

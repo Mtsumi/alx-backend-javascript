@@ -1,10 +1,6 @@
 /**
  * Updates the grades of a list of students in a given city.
- * @param {{
- *   id: Number,
- *   firstName: String,
- *   location: String
- * }[]} students - The list of students.
+ * @params  The list of students.
  * @param {*} city - The city of students.
  * @param {{
  *   studentId: Number,

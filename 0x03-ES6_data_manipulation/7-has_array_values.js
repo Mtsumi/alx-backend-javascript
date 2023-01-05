@@ -6,5 +6,7 @@
  * @returns {Boolean}
  */
 export default function hasValuesFromArray(set, array) {
-  return array.every((value) => set.has(value));
+  return array.some((value) => set.has(value));
+  // array.every((value) => set.has(value));
+  // some works just as every does in this context
 }
