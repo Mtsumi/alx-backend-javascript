@@ -1,9 +1,9 @@
 /**
  * Displays a message on STDOUT
- * Uses the process object
+ * Uses console.log
  */
 const displayMessage = (msg) => {
-  process.stdout.write(`${msg} \n`);
+  console.log(`${msg} \n`);
 }
 
 module.exports = displayMessage;
